@@ -1,0 +1,40 @@
+#bg-container{
+    /* Text zentrieren */
+    text-align:left;
+     
+    /* Inhalt vertikal mittig platzieren */
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    width:100vw;
+    background: #000000;
+    color: #fff;
+    font-family: 'Titillium Web';
+}
+ 
+.inside{
+    /* Container horizontal mittig platzieren */
+    margin: auto;
+    padding: 20px;
+	border: 4px solid #fff;
+    background-color: #383838;
+    width: 20%;
+}
+
+.eingabe{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h1{
+    font-style: verdana;
+    margin: 0em;
+}
+
+ 
